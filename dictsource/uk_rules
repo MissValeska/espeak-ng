@@ -2,13 +2,13 @@
 // Translation rules for Ukrainian
 
 // Special characters:
-// A  vowel:                   а е ё и о у ы э ю я ә ө ұ ү і
+// A  vowel:                   а е и о у э ю я і
 // B  soft consonant:          ь й ч щ
-// C  any consonant:           б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь қ ң һ
-// F  consonant, not hard:     б в г д з й к л м н п р с т ф х ч щ ь
-// G  voiced:                  б в г д ж з
-// H  hard consonant:          ъ ж ц ш
-// Y  iotated vowel, softsign: ь ю я ё
+// C  any consonant:           б в г ґ д ж з й к л м н п р с т ф х ц ч ш щ ь
+// F  consonant, not hard:     б в г ґ д з й к л м н п р с т ф х ч щ ь
+// G  voiced:                  б в г ґ д ж з
+// H  hard consonant:          ж ц ш
+// Y  iotated vowel, softsign: ь ю я
 
 .group а
        а       a
@@ -19,8 +19,11 @@
 .group в
        в       v
 
+.group ґ
+       ґ       g
+       
 .group г
-       г       g
+       г       h
 
 .group д
        д       d
@@ -45,7 +48,6 @@
 
 .group ї
        ї       i
-
 
 .group й
        й       j
